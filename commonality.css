@@ -1,0 +1,643 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-size:12px;
+    /* font-family: "微软雅黑","宋体"; */
+} 
+  /* 清除浮动 */
+.clearfix:after{
+    content:" ";
+    display: block;
+    clear: both;
+    height: 0px;
+    line-height: 0px;
+    visibility: hidden; /*隐藏盒子，保留盒子位置*/
+}
+.clearfix{
+    zoom:1; /*兼容ie浏览器*/
+} 
+ul,li{
+    list-style:none;
+}
+a{
+  text-decoration:none;
+} 
+input{
+  outline: none; /*去除选中状态边框*/
+  border: 0px;
+  background:none;
+}
+em,i,s{
+    font-style: normal;
+}
+/* <!-- 导航栏 --> */
+.box{
+    border-bottom: 1px solid #EBEBEB;
+
+}
+.head{
+    width: 1200px;
+    height: 64px;
+    margin: 0 auto;
+}
+.head .logo{
+    float: left;
+}
+.head .logo img{
+    width: 108px;
+    margin-top: 14px;
+}
+/* 搜索框 */
+.head .seek{
+    width: 650px;
+    height: 44px;
+    float: left;
+    margin: 10px 75px 0 57px;
+}
+.head .seek .one{
+    width: 84px;
+    height: 42px;
+    border: 1px solid #E5E5E5;
+    border-radius: 6px 0 0 6px;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    float: left;
+}
+.head .seek .one .span1 .em1{
+    font-size: 12px;
+    color: #9C9C9C;
+}
+.head .seek .one .span1 .i1{
+    display: inline-block;
+    vertical-align: -1px;
+    width: 15px;
+    height: 12px;
+    background: url(./image/JL001.png) no-repeat -80px 0;
+}
+/* 分类隐藏 */
+.head .seek .one .span2{
+    display: block;
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 84px;
+    height: 42px;
+    border-radius: 6px 0 0 6px;
+    background-color: #EDFFF4;
+}
+.head .seek .one .span2 .i2{
+    display: inline-block;
+    width: 15px;
+    height: 12px;
+    vertical-align: -1px;
+    background: url(./image/JL001.png) no-repeat -80px -15px;
+}
+.head .seek .one .span2 .em2{
+    font-size: 12px;
+    color: #585F5B;
+}
+.head .seek .one .conceal{
+    display: none;
+    width: 220px;
+    height: 304px;
+    border-radius: 8px;
+    border: 1px solid #e3e3e3;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 100;
+}
+.head .seek .one .conceal ul li{
+    width: 110px;
+    height: 24px;
+    margin: 8px 0 0 0px;
+    text-align: left;
+    line-height: 24px;
+    float: left;
+}
+.head .seek .one .conceal ul li a{
+    font-size: 12px;
+    color: #5F5F5F;
+    margin-left: 15px;
+}
+.head .seek .one .conceal ul li a .i3{
+    display: inline-block;
+    vertical-align: -2px;
+    width: 18px;
+    height: 17px;
+    margin-right: 3px;
+    background: url(./image/JL001.png) no-repeat -100px 0;
+}
+/* hover事件 */
+.head .seek .one:hover .span2{
+    display: block;
+}
+.head .seek .one:hover .conceal{
+    display: block;
+}
+.head .seek .one .conceal ul li:hover .i3{
+    background-position: -120px 0;
+}
+.head .seek .one .conceal ul li:hover a{
+    color: #00BE6E;
+}
+/* ！！！hover事件 */
+/* ！！！分类隐藏 */
+.head .seek .two{
+    width: 472px;
+    height: 42px;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    float: left;
+}
+.head .seek .two input{
+    line-height: 42px;
+    text-indent: 24px;
+    font-size: 12px;
+}
+::placeholder{
+    color: #E1E1E1;
+}
+.head .seek .three{
+    width: 84px;
+    height: 44px;
+    background-color: #1BD484;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    float: left;
+}
+.head .seek .three .em3{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(./image/JL001.png) no-repeat 0px -30px;
+}
+/* 个人中心 */
+.head .personal{
+    width: 310px;
+    height: 44px;
+    margin-top: 10px;
+    float: left;
+}
+.head .personal>div{
+    height: 100%;
+    float: left;
+    margin-left: 15px;
+    position: relative;
+}
+.head .personal div i{
+    display: block;
+    width: 17px;
+    margin: 5px auto;
+    height: 15px;
+    background: url(./image/JL001.png) no-repeat 0 0;
+}
+.head .personal div .i5{
+    background-position: -20px 0;
+}
+.head .personal div .i6{
+    width: 18px;
+    background-position: -40px 0;
+}
+.head .personal div .vip{
+    width: 18px;
+    height: 15px;
+    display: block;
+    margin: 5px auto;
+}
+.head .personal div .touxian{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+.head .personal div em{
+    color: #8F8F8F;
+    font-size: 12px;
+}
+/* 隐藏 */
+.head .personal div .concealtwo{
+    width: 347px;
+    height: 278px;
+    display: none;
+    position: absolute;
+    top: 44px;
+    left: -120px;
+    border: 1px solid #F2F2F2;
+    border-radius: 3px;
+    background-color: white;
+    z-index: 100;
+}
+.head .personal div .concealtwo .header{
+    width: 347px;
+    height: 14px;
+    margin-top: 18px;
+    display: inline-block;
+}
+.head .personal div .concealtwo .header div{
+    margin: 0 98px 0 16px;
+    float: left;
+    color: #5F5F5F;
+    font-size: 12px;
+    text-indent: 6px;
+    border-left: 2px solid #00BE6E;
+}
+.head .personal div .concealtwo .header .margin{
+    margin-left: 20px;
+}
+.head .personal div .concealtwo .top{
+    width: 347px;
+    height: 186px;
+}
+.head .personal div .concealtwo .top div{
+    width: 173px;
+    height: 166px;
+    float: left;
+    margin: 10px 0;
+}
+.head .personal div .concealtwo .top .border{
+    border-right: 1px solid #E2E2E2;
+}
+.head .personal div .concealtwo .top div a{
+    display: block;
+    margin-left: 16px;
+    color: #5F5F5F;
+}
+.head .personal div .concealtwo .top div .nocolor{
+    margin: 16px 0 0 16px;
+    color: #666666;
+}
+.head .personal div .concealtwo .top div .nocolor img{
+    width: 24px;
+    height: 9px;
+    margin-left: 12px;
+}
+.head .personal div .concealtwo .top div .img01{
+    width: 140px;
+    height: 80px;
+}
+.head .personal div .concealtwo .top div .padding{
+    margin: 4px 0 4px 16px;
+}
+.head .personal div .concealtwo .bottom{
+    background-color: #F4F4F4;
+    width: 347px;
+    height: 60px;
+}
+.head .personal div .concealtwo .bottom div{
+    float: left;
+    width: 74px;
+    height: 53px;
+    text-align: center;
+    margin-left: 6px;
+}
+.head .personal div .concealtwo .bottom div a{
+    color: #666666;
+    font-size: 12px;
+}
+.head .personal div .concealtwo .bottom .activity{
+    margin-left: 16px;
+}
+.head .personal div .concealtwo .bottom img{
+    width: 26px;
+    height: 26px;
+    margin: 7px auto;
+    display: block;
+}
+/* 隐藏 */
+/* hover事件 */
+.head .personal div:hover em{
+    color: #00BE6E;
+}
+.head .personal div:hover i{
+    background-position-y: -15px;
+}
+.head .personal div:hover .concealtwo{
+    display: block;
+}
+.head .personal div .concealtwo div a:hover{
+    color: #00BE6E;
+}
+.head .personal div .concealtwo div .nocolor:hover{
+    color: #00BE6E;
+}
+.head .personal div .concealtwo .bottom div:hover{
+    background-color: #EDFFF4;
+}
+.head .personal div .concealtwo .bottom div:hover a{
+    color: #00BE6E;
+}
+/* hover事件 */
+/* <!-- 导航栏 --> */
+.navigationBar{
+    width: 1200px;
+    margin: 0 auto;
+    /* position: relative; */
+}
+.navigationBar .boxbar{
+    width: 867px;
+    height: 43px;
+    margin: 0 auto;
+}
+.navigationBar .boxbar>div{
+    height: 41px;
+    margin-right: 34px;
+    border-bottom: 2px solid white;
+    float: left;
+    position: relative;
+}
+.navigationBar .boxbar .nomargin{
+    margin-right: 0;
+}
+.navigationBar .boxbar .one{
+    border-bottom: 2px solid #00BE6E;
+}
+.navigationBar .boxbar>div>a{
+    color: #666666;
+    font-size: 12px;
+    display: inline-block;
+    height: 43px;
+    line-height: 43px;
+}
+.navigationBar .boxbar .one a{
+    color: #00BE6E;
+}
+
+/* 隐藏 */
+.navigationBar .boxbar div .concealbar{
+    width: 384px;
+    height: 231px;
+    display: none;
+    position: absolute;
+    top: 43px;
+    left: -90px;
+    border-radius: 4px;
+    z-index: 100;
+    background-color: white;
+}
+.navigationBar .boxbar div .concealbar .barone{
+    height: 49px;
+    border-bottom: 1px solid #E2E2E2;
+    line-height: 49px;
+}
+.navigationBar .boxbar div .concealbar .barone .spanbar{
+    display: inline-block;
+    color: #363636;
+    font-size: 16px;
+    margin-left: 15px;
+}
+.navigationBar .boxbar div .concealbar .barone .pbar{
+    display: inline-block;
+    color: #5F5F5F;
+    font-size: 12px;
+}
+.navigationBar .boxbar div .concealbar .bartwo{
+    width: 369px;
+    height: 90px;
+    margin-left: 15px;
+}
+.navigationBar .boxbar div .concealbar .bartwo>a{
+    display: inline-block;
+    width: 100%;
+    height: 14px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #686667;
+    margin: 15px 0 6px 0;
+    border-left: 2px solid #00BE6E;
+    padding-left: 8px;
+}
+.navigationBar .boxbar div .concealbar .bartwo ul li{
+    float: left;
+    width: 88px;
+    height: 25px;
+    line-height: 25px;
+}
+.navigationBar .boxbar div .concealbar .bartwo ul li a{
+    font-size: 14px;
+    color: #5F5F5F;
+}
+/* 隐藏 */
+/* hover */
+.navigationBar .boxbar div a:hover{
+    color: #00BE6E;
+}
+.navigationBar .boxbar>div:hover{
+    border-bottom: 2px solid #00BE6E;
+
+}
+.navigationBar .boxbar div:hover .concealbar{
+    display: block;
+}
+.navigationBar .boxbar div .concealbar .bartwo ul li:hover a{
+    color: #00BE6E;
+}
+.navigationBar .boxbar div .concealbar .bartwo a:hover{
+    color: #00BE6E;
+}
+/* hover */
+/* <!-- 导航栏 --> */
+/* 0000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
+/* <!-- 浮动导航--> */
+.floatingnavigation{
+	width: 56px;
+	position: fixed;
+	right: 2px;
+	bottom: 80px;
+	z-index: 200;
+	text-align: center;
+}
+.floatingnavigation a{
+	display: block;
+	font-size: 12px;
+	background-color: #fff;
+	padding-top: 9px;
+	overflow: hidden;
+	padding-bottom: 7px;
+	border-left: 1px solid #ececec;
+	border-right: 1px solid #ececec;
+	color: #747474;
+}
+.floatingnavigation .signin{
+	color: #00BE6E;
+}
+.floatingnavigation a i{
+	display: block;
+	width: 24px;
+	height: 22px;
+	margin: 0 auto 3px;
+}
+.floatingnavigation .signin i{
+	background: url(./image/JL002.png) no-repeat -26px 0;
+}
+.floatingnavigation .customerservice i{
+	background: url(./image/JL002.png) no-repeat -26px -25px;
+}
+.floatingnavigation .makemoney i{
+	background: url(./image/JL002.png) no-repeat -26px -50px;
+}
+.floatingnavigation .feedback i{
+	background: url(./image/JL002.png) no-repeat -25px -76px;
+}
+.floatingnavigation a:hover{
+	color: white;
+	background-color: #00BE6E;
+}
+.floatingnavigation a:hover i{
+	background-position-x: 0;
+}
+/* <!-- 浮动导航00000000000000000000000000000000000000000000000--> */
+/* <!-- 底部 --> */
+.boxbottom{
+    width: 100%;
+    height: 352px;
+    background-color: #f5f5f5;
+}
+.boxbottom .bottom{
+    width: 1200px;
+    margin: 0 auto;
+}
+.boxbottom .bottom .top{
+    width: 1182px;
+    padding: 30px 0 0 18px;
+}
+.boxbottom .bottom .top .fl{
+    float: left;
+    width: 160px;
+    height: 149px;
+}
+.boxbottom .bottom .top .fl dt{
+    font-size: 14px;
+    font-weight: 700;
+    color: #666;
+    margin-bottom: 10px;
+}
+.boxbottom .bottom .top .fl dd{
+    height: 24px;
+}
+.boxbottom .bottom .top .fl dd a{
+    font-size: 12px;
+    color: #888;
+}
+.boxbottom .bottom .top .fr{
+    float: right;
+    width: 310px;
+    position: relative;
+}
+.boxbottom .bottom .top .fr .customservice a{
+    display: inline-block;
+    color: #666;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.boxbottom .bottom .top .fr .conversation a{
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 24px;
+    color: white;
+    font-size: 16px;
+    background-color: #32e696;
+    text-align: center;
+}
+.boxbottom .bottom .top .fr .conversation a i{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    vertical-align: -7px;
+    background: url(./image/common2.png) no-repeat -3px -174px;
+    margin-right: 6px;
+}
+.boxbottom .bottom .top .fr .mailbox a{
+    font-size: 18px;
+    color: #666;
+}
+.boxbottom .bottom .top .fr .mailbox i{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    vertical-align: -7px;
+   background: url(./image/common2.png) no-repeat -34px -174px;
+}
+.boxbottom .bottom .top .fr .questionnaire{
+    color: #00be6e !important;
+    position: absolute;
+    right: 70px;
+    top: 50px;
+    font-size: 14px;
+}
+.boxbottom .bottom .statement{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 18px;
+    margin-bottom: 10px;
+}
+.boxbottom .bottom .statement p{
+    display: inline-block;
+}
+.boxbottom .bottom .statement p .sina{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin-right: 20px;
+    vertical-align: middle;
+    background: url(./image/common2.png) no-repeat -65px -201px;
+}
+.boxbottom .bottom .statement p .wechat{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin-right: 20px;
+    vertical-align: middle;
+    background: url(./image/common2.png) no-repeat -36px -202px;
+}
+.boxbottom .bottom .statement p a{
+    display: inline-block;
+    margin-right: 18px;
+    font-size: 12px;
+    color: #999;
+}
+.boxbottom .bottom .statement p a:hover{
+    color: #10c55b;
+}
+.boxbottom .bottom .swindler{
+    height: auto;
+    border-top: 1px solid #ccc;
+    padding-left: 18px;
+    text-align: center;
+}
+.boxbottom .bottom .swindler .one{
+    font-size: 12px;
+    color: #888;
+    margin-top: 15px;
+}
+.boxbottom .bottom .swindler .two .three{
+    display: inline-block;
+    height: 55px;
+    line-height: 55px;
+    font-size: 12px;
+    color: #888;
+}
+.boxbottom .bottom .swindler .two .three a{
+    font-size: 12px;
+    color: #888;
+}
+.boxbottom .bottom .swindler .two .three .logo{
+    display: inline-block;
+    width: 23px;
+    height: 25px;
+    vertical-align: middle;
+    background: url(./image/common2.png) -163px -20px no-repeat;
+}
+.boxbottom .bottom .swindler .two .three .anwang img{
+    vertical-align: middle;
+}
+.boxbottom .bottom .swindler .two .three .real img{
+    width: 70px;
+    vertical-align: middle;
+}
+.boxbottom .bottom .swindler .two .four a{
+    font-size: 12px;
+    color: #888;
+}

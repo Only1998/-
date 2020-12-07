@@ -1,0 +1,369 @@
+.currentlocation{
+	width: 1200px;
+	height: 20px;
+	line-height: 20px;
+	margin: 20PX auto;
+}
+.currentlocation p{
+	color: #B6B6B6;
+	line-height: 20px;
+}
+.currentlocation p a{
+	color: #B6B6B6;
+}
+.currentlocation p a:hover{
+	color: #21D989;
+}
+
+
+
+
+
+
+
+
+
+.business{
+	width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+}
+.team{
+	width: 1160px;
+	height: 2748px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.team .left{
+	width: 720px;
+	float: left;
+}
+.team .left .top{
+	margin-bottom: 12px;
+}
+.team .left .image{
+	width: 720px;
+}
+.team .left .image img{
+	width: 720px;
+}
+.team .left .image .margintop{
+	margin-top: -3px;
+}
+.team .left .bottom{
+	width: 720px;
+	height: 54px;
+	margin: 7px 0 0 0;
+}
+.team .left .bottom p{
+	color: #a2a2a2;
+}
+.team .right{
+	float: right;
+	width: 350px;
+	margin-left: 60px;
+}
+.team .right .download{
+	width: 350px;
+	height: 100px;
+	margin-top: 40px;
+}
+.team .right .download .fl{
+	width: 264px;
+	height: 56px;
+	margin-top: 20px;
+	line-height: 56px;
+	text-align: center;
+	float: left;
+	background-color: #10c55b;
+	font-size: 18px;
+	color: white;
+}
+.team .right .download .fr{
+	float: right;
+	width: 54px;
+	height: 50px;
+	margin: 20px 0 0 10px;
+	padding-top: 4px;
+	text-align: center;
+	background-color: #edfff4;
+	color: #10c55b;
+	border: 1px solid #10c55b;
+	border-radius: 5px;
+}
+.team .right .number p{
+	font-size: 12px;
+	color: #a2a2a2;
+	margin-bottom: 14px;
+}
+.team .right .botton{
+	width: 344px;
+	height: 39px;
+	margin: 45px 0 15px 0;
+	position: relative;
+}
+.team .right .botton .one{
+	display: inline-block;
+	width: 165px;
+	height: 32px;
+	border: 1px solid #b77b37;
+	border-radius: 5px;
+	background-color: #fff;
+}
+.team .right .botton .one a{
+	display: inline-block;
+	width: 165px;
+	height: 32px;
+	line-height: 32px;
+	color: #AC7638;
+}
+.team .right .botton .two{
+	width: 167px;
+	height: 34px;
+	border: none;
+	border-radius: 5px;
+	position: absolute;
+	right: 0px;
+}
+.team .right .botton button span{
+	position: absolute;
+	width: 76px;
+	height: 24px;
+	border-radius: 10px 10px 0 10px;
+	line-height: 24px;
+	display: block;
+	top: -15px;
+	left: 89px;
+	z-index: 1;
+	color: white;
+	background-color: #AC7638;
+}
+.team .right .copyright{
+	margin-bottom: 35px;
+}
+.team .right .copyright p{
+	margin-bottom: 16px;
+	color: #a2a2a2;
+}
+.team .right .copyright p a{
+	color: #10c55b ;
+}
+.team .right .copyright button{
+	width: 158px;
+	height: 34px;
+	background-color: #10c55b;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 60px;
+}
+.team .right .copyright button a{
+	display: inline-block;
+	width: 158px;
+	height: 34px;
+	line-height: 34px;
+	color: #fff;
+}
+.team .right .biaoqiang{
+	margin-bottom: 25px;
+}
+.team .right .biaoqiang div a{
+	display: inline-block;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 7px;
+	margin:  0 8px 8px 0;
+	border: 1px solid #b6b6b6;
+	border-radius: 5px;
+	color: rgb(107, 107, 107);
+}
+.team .right .zuoz{
+	height: 78px;
+}
+.team .right .zuoz>a{
+	float: left;
+}
+.team .right .zuoz .mmp{
+	float: left;
+	margin-top: 5px;
+}
+.team .right .zuoz .mmp .one{
+	width: 138px;
+	height: 19px;
+	line-height: 19px;
+}
+.team .right .zuoz .mmp .two{
+	margin-top: 5px;
+	color: rgb(134, 134, 134);
+}
+.team .right .zuoz .guan{
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #10c55b;
+	color: white;
+	float: right;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.team .right .goog{
+	height: 160px;
+}
+.team .right .goog img{
+	width: 103px;
+	height: 137px;
+	margin-right: 11px;
+}
+.team .right .img{
+	height: 25px;
+	line-height: 25px;
+}
+
+
+
+
+
+
+
+
+.only{
+	margin-top: 10px;
+	background-color: #dbdbdb;
+}
+.only .like{
+	width: 1200px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	font-size: 16px;
+	text-indent: 12px;color: #7a7a7a;
+}
+.only .gg{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+.only .bottom{
+    width: 1192px;
+    /* height: 848px; */
+	margin: 0 auto;
+}
+.only .bottom .image{
+    width: 292px;
+    height: 408px;
+    border-radius: 8px;
+    float: left;
+    margin: 0 8px 16px 0;
+}
+.only .bottom .inmultiplesoffour{
+    margin-right: 0px;
+}
+.only .bottom .image a{
+    display: inline-block;
+    position: relative;
+    height: 408px;
+}
+.only .bottom .image a img{
+    margin: 8px 8px 4px 8px;
+    border-radius: 7px;
+    width: 276px;
+    height: 368px;
+}
+.only .bottom .image a .spansubone{
+    display: inline-block;
+    width: 56px;
+    height: 18px;
+    border: 1px solid #01BE6E;
+    border-radius: 3px;
+    color: #01BE6E;
+    margin-left: 8px;
+    text-align: center;
+    margin-right: 3px;
+    position: relative;
+    background-color: white;
+    z-index: 100;
+}
+.only .bottom .image a .spansubtwo{
+    color: #676767;
+}
+/* <!-- 隐藏hover事件 --> */
+.only .bottom .image a .download{
+    width: 292px;
+    height: 408px;
+    background-color: rgba(0,0,0,.1);
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    display: none;
+    border-radius: 8px;
+}
+.only .bottom .image a .download .collect{
+    width: 70px;
+    height: 34px;
+    border-radius: 4px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    color: #979797;
+    font-size: 12px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+.only .bottom .image a .download .collect .ii{
+    display: inline-block;
+    width: 18px;
+    height: 17px;
+    background: url(./image/JL001.png) no-repeat -100px 0;
+    position: absolute;
+    top: 10px;
+    left: 13px;
+}
+.only .bottom .image a .download .downloadbotton{
+    width: 160px;
+    height: 42px;
+    border-radius: 4px;
+    background-color: #21D989;
+    text-align: center;
+    line-height: 42px;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    left: 66px;
+}
+.only .bottom .image a .download .downloadbotton .iii{
+    display: inline-block;
+    width: 15px;
+    height: 12px;
+    background: url(./image/JL001.png) no-repeat -100px -17px;
+    position: absolute;
+    top: 16px;
+    left: 35px;
+}
+/* hover */
+.only .bottom .image a:hover .download{
+    display: block;
+}
+.only .bottom .image a:hover .spansubone{
+    border: 1px solid white;
+    background-color: white;
+}
+.only .bottom .image a .download .collect:hover{
+    color: #00BE6E;
+}
+.only .bottom .image a .download .collect:hover .ii{
+    background-position-x: -120px;
+}
+/* <!-- 隐藏hover事件 --> */
+
+
+
+
+
+
+
+
+
+
+
